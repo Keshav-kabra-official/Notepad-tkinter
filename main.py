@@ -18,7 +18,7 @@ def ask():
 root = Tk()
 root.title("Untitled - NoteBook")
 root.geometry("800x650")
-root.wm_iconbitmap("2.ico")
+root.wm_iconbitmap("notepad.ico")
 
 root.protocol('WM_DELETE_WINDOW', ask)
 # --------------------------------------------------------------------------------------- #
